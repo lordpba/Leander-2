@@ -1,0 +1,14 @@
+# Prompt per generare gli asset di Leander 2
+# Un prompt per riga, le righe con # sono commenti
+
+# === BACKGROUNDS ===
+dark fantasy forest with twisted trees, moonlight filtering through branches
+ancient stone castle interior, torches on walls, medieval dungeon
+underground cavern with glowing crystals, blue and purple lighting
+stormy cliff edge overlooking dark sea, lightning in background
+enchanted garden with magical flowers, fairy tale atmosphere
+dark swamp with dead trees, fog and mist, eerie green lighting
+volcanic area with lava pools, red glow, rocky terrain
+snowy mountain pass, ice crystals, cold blue atmosphere
+haunted graveyard with tombstones, full moon, spooky trees
+ancient temple ruins, overgrown with vines, mystical symbols
