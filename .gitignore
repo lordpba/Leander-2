@@ -1,0 +1,24 @@
+# Build Artifacts
+Leander2
+*.o
+*.s
+src/*.o
+
+# Asset intermediate files
+assets/*.raw
+assets/*.h
+!assets/original/
+
+# Python Virtual Env
+venv/
+__pycache__/
+
+# Emulation Data / Proprietary ROMs (CRITICAL)
+*.rom
+*.key
+roms/
+fs-uae.log*
+FS-UAE/
+
+# System binaries (if any accidental saves)
+.DS_Store
