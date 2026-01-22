@@ -5,7 +5,7 @@
 
 A proof-of-concept project to develop a sequel to the classic "Leander" for the Commodore Amiga 1200 (AGA Chipset), using modern development tools.
 
-Developed by Mario & Co using C (GCC) and automatic asset pipelines.
+Developed by MC using C (GCC) and automatic asset pipelines.
 
 ## 🚀 Features (So far)
 - **Bare Metal C**: Direct hardware access (Copper, Blitter, custom chips) without OS overhead.
