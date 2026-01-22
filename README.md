@@ -1,14 +1,28 @@
-# Leander 2 (Amiga 1200 AGA)
+# Leander 2: Legacy of the Stick (Amiga 1200 AGA)
 
 ![Leander 2 Concept Art](assets/leander2.png)
 
+> **"30 years later, the legend returns."**
 
-A proof-of-concept project to develop a sequel to the classic "Leander" for the Commodore Amiga 1200 (AGA Chipset), using modern development tools.
+## 📖 The Project
+**Leander 2** is a passion project to create an unofficial sequel to the 1991 Psygnosis classic *Leander*. 
 
-Developed by MC using C (GCC) and automatic asset pipelines.
+Built for the **Amiga 1200 (AGA)**, this project aims to combine the nostalgia of the original with the graphical power that wasn't fully utilized back in the day, enhanced by modern **Generative AI** for asset creation.
+
+**Goal:** To deliver the sequel we dreamed of playing when we were 13.
+
+## 👥 Credits
+- **Concept & Code:** MC
+- **Co-Pilot:** Google DeepMind Agent
+- **Original Inspiration:** Psygnosis / Traveller's Tales (Galahad)
 
 ## 🚀 Features (So far)
-- **Bare Metal C**: Direct hardware access (Copper, Blitter, custom chips) without OS overhead.
+- **Engine**: Custom "Bare Metal" C engine (No OS overhead).
+- **Graphics**: 256-color AGA visuals, Interleaved Bitplanes.
+- **Tech Stack**: 
+    - Cross-compilation via Docker (`ozzyboshi/bebbo-amiga-gcc`).
+    - AI-driven asset pipeline (Python + Pillow).
+
 - **Modern Toolchain**: Cross-compilation via Docker (`ozzyboshi/bebbo-amiga-gcc`).
 - **Asset Pipeline**: Python scripts (`tools/convert_assets.py`) automatically convert PNG images into Amiga bitplane format (Interleaved) and generate C headers.
 - **Copper Backgrounds**: Custom Copper lists to display high-color backgrounds.
