@@ -8,6 +8,7 @@ src/*.o
 assets/*.raw
 assets/*.h
 !assets/original/
+!assets/leander2.png
 
 # Python Virtual Env
 venv/

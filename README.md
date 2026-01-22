@@ -1,5 +1,8 @@
 # Leander 2 (Amiga 1200 AGA)
 
+![Leander 2 Concept Art](assets/leander2.png)
+
+
 A proof-of-concept project to develop a sequel to the classic "Leander" for the Commodore Amiga 1200 (AGA Chipset), using modern development tools.
 
 Developed by Mario & Co using C (GCC) and automatic asset pipelines.
